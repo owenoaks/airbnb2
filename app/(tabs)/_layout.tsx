@@ -58,8 +58,6 @@ const Layout = () => {
         name="profile"
         options={{
           tabBarLabel: "Profile",
-
-          headerShown: false,
           tabBarIcon: ({ size, color }) => (
             <Ionicons name="person-circle-outline" size={size} color={color} />
           ),
